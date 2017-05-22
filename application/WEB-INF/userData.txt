@@ -1,0 +1,5 @@
+manager1|manager1@email.com|m1first|m1last|manager1123|manager|t1,t2,t3,t4,t5,t6
+busboy1|busboy1@email.com|b1first|b1last|busboy1123|busboy|t4,t5,t6
+waiter1|waiter1@email.com|w1first|w1last|waiter1123|waiter|t1,t2,t3
+host1|host1@email.com|h1first|h1last|host1123|host|t7,t8,t9
+barattend1|barattend1@email.com|ba1first|ba1last|barattend1123|barattend|t1,t2,t3

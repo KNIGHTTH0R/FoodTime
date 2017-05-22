@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-Jun-2016, 06:53:38
+    Author     : USER
+*/
+.Cellstyle{
+    border:3px;
+    border-style:double;
+    border-color:black;
+    padding:1em;
+}
+
+.green{
+    border:3px;
+    border-style:double solid;    
+    border-color:#00ff00;
+    padding: 1em;
+    cursor: pointer;
+}

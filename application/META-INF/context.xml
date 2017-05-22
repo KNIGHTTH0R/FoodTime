@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/amrutha_sneha_assignment4">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/nbad3_create_db" 
+            password="3m12RgpNDJKQ" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" 
+            url="jdbc:mysql://127.5.222.130:3306/nbad3_create_db?autoReconnect=true" username="adminXefGXGe"/>
+</Context>

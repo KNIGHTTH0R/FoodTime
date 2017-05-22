@@ -1,0 +1,330 @@
+/************header******************/
+.container .navbar .set-login{
+    margin-top: .5em;
+    margin-right: 5em;
+}
+.container .navbar .set-login .nav a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+
+/*************login*************/
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin-size{
+    max-width: 500px;
+    margin-top: 13%; 
+}
+
+/*************order.jsp****************/
+
+.container .center-div{
+    
+    background-color: black;
+}
+.container .width{
+    width: 60%;
+}
+ .container .center-div .width .list-group ul{
+ text-align: left;
+ margin-left: -2em;
+}
+ .container .center-div .width .list-group ul a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ .container .center-div .width .list-group ul li ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.container .center-div .width .list-group ul a span{
+    float: right;
+}
+.container .center-div .width .list-group ul li{
+    background-color: #3c3c3c;
+}
+.container .center-div .width .list-group ul li ul li:hover{
+    background-color: #269abc;
+}
+.container .center-div .width .list-group ul li ul li a:hover{
+    background-color: #269abc;
+    text-decoration: none;
+}
+ .center-div .width .list-group ul li:hover{
+    background-color: #269abc;
+}
+/*****************hostessPage******************/
+.container-margin{
+    margin-left: 5%; 
+    margin-top: 3%
+}
+.container table{
+    background-color:white; 
+}
+.container .table-border{
+    border-width: 8px;
+    box-shadow: 10px 10px 5px #888888;
+    
+}
+.container .table tr td{
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+}
+
+/*.container .host tr td a#available,#available1,#available2{
+    border-color: greenyellow;
+    border-width: .5em;
+}*/
+.top-margin{
+    margin-top: 7em;
+}
+.all-margin{
+    margin-top: 7em;
+    margin-left: 5%;
+}
+.center{
+    text-align: center;
+   background-color: white;
+   margin-left: 10em;
+   margin-right: 10em;
+}
+.side-menu-arrow{
+    float: right;
+    margin-top: .7em;
+}
+
+/***********cartPage*****************/
+.container vert-offset-top-4 .row button a{
+    text-decoration: none;
+}
+.nopadding {
+   padding: 0 !important;
+   padding-right: 0!important;
+   padding-left:  2px !important;
+   margin-top: 5px !important;
+   
+}
+.column-1{
+    width: 333px;
+    padding-right: 5em;
+}
+.column-lg-2{
+    margin-left: 260px;
+}
+.column-xs-2{
+    margin-left: 25px;
+}
+.pull-lg-right{
+    margin-left: 260px;
+}
+.pull-xs-right{
+    margin-left: 26px;
+}
+
+.vert-offset-top-4{
+    margin-top: 4em;
+}
+.vert-offset-top-2{
+    margin-top: 2em;
+}
+/***********Wait*************************/
+.wait td{
+    border: 1px solid #dddddd;
+}
+
+.hoverid .ulclass{
+    display:none;
+}
+.hoverid:hover .ulclass{
+    display: block;
+    background: #f2f2f2;
+    position: absolute;
+    z-index: 999;
+}
+.hoverid .ulclass li{
+    padding:.5em;
+    font-size: small;
+}
+.hoverid .ulclass li:hover{
+cursor: pointer;
+}
+.hoverid .ulclass li span{
+    padding-right: .5em;
+}
+
+/***********BarAttendant*****************/
+.barattend-container-margin{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.container .barattend tr td a#available,#available1,#available2{
+    border-color: green;
+    border-width: .5em;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content1 {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content ul li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {display:block;}
+
+
+/*****************Busboy**********************/
+.container .busboy tr td a#available,#available1,#available2{
+    border-color: greenyellow;
+    border-width: .5em;
+}
+
+/*******************Manager*******************/
+.double-border{
+    border-width: 8px;
+    box-shadow: 10px 10px 5px #888888;
+}
+.noleft-margin{
+    margin-left: 0 !important;
+}
+.double-border tr td a{
+    border: double #888888;
+    padding: .3em;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+.double-border tr td a#request{
+    border-color:#ffff00;
+    border-width: .5em;
+}
+.double-border tr td a#time-elapse{
+    color: red;
+}
+.left-margin{
+    margin-left: 5em;
+}
+
+/**********************buscodepopup***************/
+#popup
+{
+    display:none;
+    position: fixed;
+    width:500px;
+    height: 300px;
+    top: 40%;
+    left: 45%;
+    margin-left:-155px;
+    margin-top:-110px;
+    border:5px black;
+    background-color:#DEDFDE;
+    padding:30px;
+    z-index:102;
+    font-family:Verdana;
+    font-size:10pt;
+    border-radius:10px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    font-weight:bold;
+}
+#content
+{
+    height:auto;
+    width:250px;
+    margin:60px auto;
+}
+
+.Cellstyle{
+    border:3px;
+    border-style:double;
+    border-color:black;
+    padding:1em;
+}
+
+.green{
+    border:3px;
+    border-style:double solid;    
+    border-color:#00ff00;
+    padding: 1em;
+    cursor: pointer;
+}
+#role{
+    width:250px;
+}
+#confirm{
+    margin-top: 20em;
+}

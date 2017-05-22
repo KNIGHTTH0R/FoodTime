@@ -1,0 +1,9 @@
+t1|available|8|loc1
+t2|notavailable|4|loc2
+t3|available|5|loc3
+t4|notavailable|6|loc4
+t5|notavailable|3|loc5
+t6|available|8|loc6
+t7|notavailable|6|loc7
+t8|available|5|loc8
+t9|notavailable|2|loc9
